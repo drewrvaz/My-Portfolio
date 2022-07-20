@@ -31,8 +31,6 @@ body {
     margin-right: 15px;
     float: right;
     font-size: 110%;
-    justify-content: center;
-    align-items: center;
 }
 
 .header div li {
@@ -41,7 +39,21 @@ body {
 }
 
 .header a {
-    color: darkslategray;
+    color: snow;
     text-decoration: none;
     font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    color: midnightblue;
+    background-color: snow;
+}
+
+footer {
+    display: flex;
+    padding: 20px;
+    color: snow;
+    background-color: midnightblue;
+    justify-content: center;
 }
