@@ -12,17 +12,22 @@ body {
 
 .header {
     padding: 25px;
-    background-color: navy;
-    color: navajowhite;
+    background-color: lightsteelblue;
+    color: snow;
 }
 
 .header h1 {
     font-size: 200%;
-    display: inline-block;
+    display: flex;
+    background-color: midnightblue;
+    color: snow;
+    padding: 10px;
+    max-width: max-content;
 }
 
 .header div {
-    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
     margin-right: 15px;
     float: right;
     font-size: 110%;
@@ -34,7 +39,7 @@ body {
 }
 
 .header a {
-    color: navajowhite;
+    color: snow;
     text-decoration: none;
     font-weight: bold;
 }
