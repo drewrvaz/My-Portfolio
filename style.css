@@ -53,6 +53,21 @@ section {
     background-color: snow;
 }
 
+.about-me {
+    display: flex;
+    flex-direction: column;
+    max-height: max-content;
+}
+
+.about-andrew {
+    display: flex;
+    font-size: 150%;
+}
+
+.andrew {
+    display: flex;
+}
+
 footer {
     display: flex;
     padding: 20px;
