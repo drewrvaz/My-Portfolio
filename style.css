@@ -107,10 +107,16 @@ img {
     flex-wrap: wrap;
 }
 
+#resume {
+
+}
+
 #contact {
     display: flex;
     flex-direction: row;
-    max-height: max-content;
+    max-height: 15%;
+    padding: 20px;
+    justify-content: space-around;
 }
 
 #contact h3 {
@@ -123,8 +129,10 @@ img {
 
 #contact div {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    font-size: 110%;
+    align-items: center;
 }
 
 #contact li {
