@@ -53,10 +53,11 @@ section {
     background-color: snow;
 }
 
-.about-me {
+#about {
     display: flex;
     flex-direction: row;
     max-height: max-content;
+    border-bottom: 5px solid lightsteelblue;
 }
 
 img {
