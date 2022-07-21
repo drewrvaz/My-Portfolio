@@ -145,6 +145,10 @@ img {
     color: midnightblue;
 }
 
+#contact a:hover {
+    text-decoration: underline;
+}
+
 footer {
     display: flex;
     padding: 20px;
