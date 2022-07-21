@@ -103,19 +103,14 @@ img {
     border-right: 5px solid lightsteelblue;
 }
 
-#projects div {
+#projects div li {
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 70%;
+    width: 70%;
     font-size: 120%;
-    text-align: center;
-}
-
-#resume {
-
 }
 
 #contact {
