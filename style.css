@@ -76,6 +76,7 @@ img {
     flex-wrap: wrap;
     max-width: 60%;
     font-size: 120%;
+    text-align: center;
 }
 
 .about-andrew h3 {
