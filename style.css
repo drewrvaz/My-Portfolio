@@ -55,17 +55,30 @@ section {
 
 .about-me {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     max-height: max-content;
 }
 
-.about-andrew {
+img {
     display: flex;
-    font-size: 150%;
+    max-width: 30%;
+    height: auto;
+    padding: 20px;
+    border-right: 5px solid lightsteelblue;
 }
 
-.andrew {
+.about-andrew {
+    padding: 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 60%;
+    font-size: 120%;
+}
+
+.about-andrew h3 {
+    font-size: 150%;
 }
 
 footer {
