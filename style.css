@@ -47,6 +47,10 @@ body {
     font-weight: bold;
 }
 
+.header a:hover {
+    color: midnightblue;
+}
+
 section {
     padding: 20px;
     color: midnightblue;
