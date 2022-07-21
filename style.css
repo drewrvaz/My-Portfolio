@@ -105,7 +105,7 @@ img {
 
 #contact {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     max-height: max-content;
 }
 
@@ -114,16 +114,23 @@ img {
     font-size: 150%;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 
 #contact ul {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
 #contact li {
     display: inline-block;
     padding: 20px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: midnightblue;
 }
 
 footer {
@@ -132,4 +139,5 @@ footer {
     color: snow;
     background-color: midnightblue;
     justify-content: center;
+    max-height: 10%;
 }
