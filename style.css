@@ -83,6 +83,26 @@ img {
     font-size: 150%;
 }
 
+#projects {
+    display: flex;
+    flex-direction: row;
+    max-height: max-content;
+}
+
+#projects h3 {
+    display: flex;
+    padding: 20px;
+    max-width: 30%;
+    font-size: 150%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#projects div {
+    display: flex;
+
+}
+
 footer {
     display: flex;
     padding: 20px;
