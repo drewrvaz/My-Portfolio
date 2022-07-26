@@ -28,7 +28,7 @@ body {
     max-width: max-content;
 }
 
-.header nav {
+.header nav, #contact nav {
     display: flex;
     flex-wrap: wrap;
     margin-right: 15px;
