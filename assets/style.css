@@ -1,3 +1,9 @@
+:root {
+    --dark: midnightblue;
+    --light: lightsteelblue;
+    --white: snow;
+}
+
 * {
     box-sizing: border-box;
     padding: 0px;
@@ -12,8 +18,8 @@ body {
 
 .header {
     padding: 25px;
-    background-color: lightsteelblue;
-    color: snow;
+    background-color: var(--light);
+    color: var(--white);
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -22,8 +28,8 @@ body {
 .header h1 {
     font-size: 200%;
     display: flex;
-    background-color: midnightblue;
-    color: snow;
+    background-color: var(--dark);
+    color: var(--white);
     padding: 10px;
     max-width: max-content;
 }
@@ -42,26 +48,26 @@ body {
 }
 
 .header a {
-    color: snow;
+    color: var(--white);
     text-decoration: none;
     font-weight: bold;
 }
 
 .header a:hover {
-    color: midnightblue;
+    color: var(--dark);
 }
 
 section {
     padding: 20px;
-    color: midnightblue;
-    background-color: snow;
+    color: var(--dark);
+    background-color: var(--white);
 }
 
 #about {
     display: flex;
     flex-direction: row;
     max-height: max-content;
-    border-bottom: 5px solid lightsteelblue;
+    border-bottom: 5px solid var(--light);
 }
 
 img {
@@ -69,7 +75,7 @@ img {
     max-width: 30%;
     height: auto;
     padding: 20px;
-    border-right: 5px solid lightsteelblue;
+    border-right: 5px solid var(--light);
 }
 
 .about-andrew {
@@ -100,7 +106,7 @@ img {
     font-size: 150%;
     justify-content: center;
     align-items: flex-start;
-    border-right: 5px solid lightsteelblue;
+    border-right: 5px solid var(--light);
 }
 
 #projects nav li {
@@ -129,14 +135,6 @@ img {
     padding: 15px;
 }
 
-#contact nav {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 15px;
-    font-size: 110%;
-    align-items: center;
-}
-
 #contact li {
     display: inline-block;
     padding: 20px;
@@ -144,7 +142,7 @@ img {
 
 #contact a {
     text-decoration: none;
-    color: midnightblue;
+    color: var(--dark);
 }
 
 #contact a:hover {
@@ -154,8 +152,8 @@ img {
 footer {
     display: flex;
     padding: 20px;
-    color: snow;
-    background-color: midnightblue;
+    color: var(--white);
+    background-color: var(--dark);
     justify-content: center;
     max-height: 10%;
 }
