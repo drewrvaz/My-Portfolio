@@ -110,7 +110,7 @@ section {
     list-style: none;
 }
 
-.card-1 {
+.card-1, .card {
     display: flex;
     padding: 20px;
     flex-direction: column;
@@ -121,32 +121,18 @@ section {
 .card-1 img {
     max-width: 60%;
     padding: 20px;
-    filter: opacity(50%);
     -webkit-filter: opacity(50%);
-}
-
-.card-1 img:hover {
-    filter: opacity(100%);
-    -webkit-filter:opacity(100%);
-} 
-
-.card {
-    padding: 20px;
-    max-width: 100%;
-    text-align: center;
 }
 
 .card img {
     max-width: 40%;
     padding: 20px;
-    filter: opacity(50%);
     -webkit-filter: opacity(50%);
 }
 
-.card img:hover {
-    filter: opacity(100%);
+.card-1 img:hover, .card img:hover {
     -webkit-filter:opacity(100%);
-}
+} 
 
 #contact {
     display: flex;
@@ -216,5 +202,11 @@ footer {
     }
     .about-andrew {
         max-width: 100%;
+    }
+    .card-1 img {
+        -webkit-filter:opacity(100%);
+    } 
+    .card img {
+        -webkit-filter:opacity(100%);
     }
 }
