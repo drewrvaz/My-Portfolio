@@ -6,8 +6,8 @@
 
 * {
     box-sizing: border-box;
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -190,4 +190,24 @@ footer {
     justify-content: center;
     max-height: 10%;
     border-top: 5px solid var(--light);
+}
+
+@media screen and (max-width: 992px) {
+    body {}    
+}
+
+@media screen and (max-width: 768px) {
+    body {flex-direction: column;
+    padding: 0px;
+}
+    #about {
+    flex-direction: column;
+}
+    #about img {
+        border: none;
+        max-width: 100%;
+    }
+    .about-andrew {
+        max-width: 100%;
+    }
 }
