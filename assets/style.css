@@ -70,7 +70,7 @@ section {
     border-bottom: 5px solid var(--light);
 }
 
-img {
+#about img {
     display: flex;
     max-width: 30%;
     height: auto;
@@ -102,11 +102,10 @@ img {
 .projects h3 {
     display: flex;
     padding: 20px;
-    width: 30%;
+    width: 100%;
     font-size: 150%;
     justify-content: center;
     align-items: flex-start;
-    border-right: 5px solid var(--light);
 }
 
 .projects nav li {
@@ -117,6 +116,15 @@ img {
     flex-wrap: wrap;
     width: 70%;
     font-size: 120%;
+}
+
+
+
+.card-1 img {
+    display: flex;
+    max-width: 80%;
+    height: auto;
+    padding: 20px;
 }
 
 .contact {
