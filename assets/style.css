@@ -26,7 +26,6 @@ body {
 
 .header h1 {
     font-size: 200%;
-    display: flex;
     background-color: var(--dark);
     color: var(--white);
     padding: 10px;
@@ -94,7 +93,7 @@ section {
 
 #projects {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -129,17 +128,16 @@ section {
 .card-1 img:hover {
     filter: opacity(100%);
     -webkit-filter:opacity(100%);
-}
+} 
 
 .card {
     padding: 20px;
     max-width: 100%;
     text-align: center;
-    flex: 1 0 30%;
 }
 
 .card img {
-    max-width: 50%;
+    max-width: 40%;
     padding: 20px;
     filter: opacity(50%);
     -webkit-filter: opacity(50%);
