@@ -156,7 +156,8 @@ section {
     max-height: 15%;
     padding: 20px;
     justify-content: space-around;
-    border-top: 5px solid var(--light);
+    background-color: var(--dark);
+    color: var(--white);
 }
 
 #contact h3 {
@@ -174,7 +175,7 @@ section {
 
 #contact a {
     text-decoration: none;
-    color: var(--dark);
+    color: var(--white);
 }
 
 #contact a:hover {
@@ -188,4 +189,5 @@ footer {
     background-color: var(--dark);
     justify-content: center;
     max-height: 10%;
+    border-top: 5px solid var(--light);
 }
