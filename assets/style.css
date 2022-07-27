@@ -8,7 +8,6 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    flex-wrap: wrap;
 }
 
 body {
@@ -96,7 +95,7 @@ section {
 .projects {
     display: flex;
     flex-direction: row;
-    max-height: max-content;
+    flex-wrap: wrap;
 }
 
 .projects h3 {
@@ -108,23 +107,25 @@ section {
     align-items: flex-start;
 }
 
-.projects nav li {
-    padding: 20px;
+.card-1 {
     display: flex;
+    padding: 20px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    width: 70%;
-    font-size: 120%;
+    max-width: 100%;
 }
 
-
-
 .card-1 img {
-    display: flex;
-    max-width: 80%;
-    height: auto;
+    max-width: 60%;
     padding: 20px;
+    filter: opacity(50%);
+    -webkit-filter: opacity(50%);
+}
+
+.card-1 img:hover {
+    filter: opacity(100%);
+    -webkit-filter:opacity(100%);
 }
 
 .contact {
