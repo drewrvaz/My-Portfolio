@@ -33,7 +33,7 @@ body {
     max-width: max-content;
 }
 
-.header nav, .contact nav {
+.header nav, #contact nav {
     display: flex;
     flex-wrap: wrap;
     margin-right: 15px;
@@ -92,13 +92,13 @@ section {
     font-size: 150%;
 }
 
-.projects {
+#projects {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.projects h3 {
+#projects h3 {
     display: flex;
     padding: 20px;
     width: 100%;
@@ -107,7 +107,7 @@ section {
     align-items: flex-start;
 }
 
-.projects ul {
+#projects ul {
     list-style: none;
 }
 
@@ -150,15 +150,16 @@ section {
     -webkit-filter:opacity(100%);
 }
 
-.contact {
+#contact {
     display: flex;
     flex-direction: row;
     max-height: 15%;
     padding: 20px;
     justify-content: space-around;
+    border-top: 5px solid var(--light);
 }
 
-.contact h3 {
+#contact h3 {
     display: flex;
     font-size: 150%;
     justify-content: center;
@@ -166,17 +167,17 @@ section {
     padding: 15px;
 }
 
-.contact li {
+#contact li {
     display: inline-block;
     padding: 20px;
 }
 
-.contact a {
+#contact a {
     text-decoration: none;
     color: var(--dark);
 }
 
-.contact a:hover {
+#contact a:hover {
     text-decoration: underline;
 }
 
