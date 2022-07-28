@@ -133,6 +133,7 @@ section {
 .card-1 img {
     max-width: 60%;
     padding: 20px;
+    filter: opacity(50%);
     -webkit-filter: opacity(50%);
 }
 
@@ -140,11 +141,13 @@ section {
 .card img {
     max-width: 40%;
     padding: 20px;
+    filter: opacity(50%);
     -webkit-filter: opacity(50%);
 }
 
 /*Makes the selected image clear when its hovered over*/
 .card-1 img:hover, .card img:hover {
+    filter: opacity(100%);
     -webkit-filter:opacity(100%);
 } 
 
@@ -225,9 +228,11 @@ footer {
         max-width: 100%;
     }
     .card-1 img {
+        filter: opacity(100%);
         -webkit-filter:opacity(100%);
     } 
     .card img {
+        filter: opacity(100%);
         -webkit-filter:opacity(100%);
     }
 }
