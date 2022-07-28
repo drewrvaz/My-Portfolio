@@ -1,20 +1,24 @@
+/*The root command can set variables to be used in the styling. That way I don't need to type out the color each time*/
 :root {
     --dark: midnightblue;
     --light: lightsteelblue;
     --white: snow;
 }
 
+/*Universal selector for the entire page*/
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
+/*Sets the base font-size and style for the entire body of the page*/
 body {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
 }
 
+/*Thenext 40 lines of code style the header and its contents on the page*/
 .header {
     padding: 25px;
     background-color: var(--light);
@@ -32,6 +36,7 @@ body {
     max-width: max-content;
 }
 
+/*Since the header and contact nav share the exact same stying, they are combined here*/
 .header nav, #contact nav {
     display: flex;
     flex-wrap: wrap;
@@ -40,6 +45,7 @@ body {
     align-items: center;
 }
 
+/*This causes the links within the header to appear next to  each other*/
 .header nav li {
     display: inline-block;
     margin-left: 15px;
@@ -51,16 +57,19 @@ body {
     font-weight: bold;
 }
 
+/*This makes the links in the header change when you hover over them*/
 .header a:hover {
     color: var(--dark);
 }
 
+/*This styles all of the section elements the same way*/
 section {
     padding: 20px;
     color: var(--dark);
     background-color: var(--white);
 }
 
+/*The next three sections make it so that the picture of me and my about me paragraph appear next to each other on the page*/
 #about {
     display: flex;
     flex-direction: row;
@@ -91,6 +100,7 @@ section {
     font-size: 150%;
 }
 
+/*I personally like the column look for the porjects, which is why I chose this styling*/
 #projects {
     display: flex;
     flex-direction: column;
@@ -110,6 +120,7 @@ section {
     list-style: none;
 }
 
+/*Since all of the cards with the images share the same base formatting, they are goruped together here*/
 .card-1, .card {
     display: flex;
     padding: 20px;
@@ -118,22 +129,26 @@ section {
     text-align: center;
 }
 
+/*Makes this image bigger than the others, and also makes the image more opaque when its not being hovered over*/
 .card-1 img {
     max-width: 60%;
     padding: 20px;
     -webkit-filter: opacity(50%);
 }
 
+/*Makes the images more opaque when they're not being hovered over*/
 .card img {
     max-width: 40%;
     padding: 20px;
     -webkit-filter: opacity(50%);
 }
 
+/*Makes the selected image clear when its hovered over*/
 .card-1 img:hover, .card img:hover {
     -webkit-filter:opacity(100%);
 } 
 
+/*This causes the items in the contact section to align in a row in with their flexboxes*/
 #contact {
     display: flex;
     flex-direction: row;
@@ -152,20 +167,24 @@ section {
     padding: 15px;
 }
 
+/*This causes the links in the contact section to line up next to each other*/
 #contact li {
     display: inline-block;
     padding: 20px;
 }
 
+/*This removes the underlining from the links in the contact section*/
 #contact a {
     text-decoration: none;
     color: var(--white);
 }
 
+/*This underlines the links in the contact section when hovering over them*/
 #contact a:hover {
     text-decoration: underline;
 }
 
+/*This houses the styling for the footer on the page*/
 footer {
     display: flex;
     padding: 20px;
@@ -176,6 +195,7 @@ footer {
     border-top: 5px solid var(--light);
 }
 
+/*This is the media Query for viewing on tablets*/
 @media screen and (max-width: 992px) {
     body {flex-direction: column;
         padding: 0px;
@@ -189,13 +209,14 @@ footer {
     }
 }
 
+/*This is the media query for viewing on phones*/
 @media screen and (max-width: 768px) {
     body {flex-direction: column;
     padding: 0px;
-}
+    }
     #about {
     flex-direction: column;
-}
+    }
     #about img {
         border: none;
         max-width: 100%;
