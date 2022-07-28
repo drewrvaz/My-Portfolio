@@ -86,14 +86,17 @@ section {
 }
 
 .about-andrew {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     max-width: 70%;
     font-size: 120%;
-    text-align: center;
+    text-align: left;
 }
 
 .about-andrew h3 {
